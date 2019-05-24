@@ -1,0 +1,32 @@
+{
+  "name": "flutter-restapi",
+  "version": "1.0.0",
+  "description": "Simple rest Api made with NodeJs & Flutter",
+  "main": "src/index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EfrenSanchez/flutter-restapi.git"
+  },
+  "author": "Efren Sanchez <efren.sanchezgon@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EfrenSanchez/flutter-restapi/issues"
+  },
+  "homepage": "https://github.com/EfrenSanchez/flutter-restapi#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.0",
+    "faker": "^4.1.0",
+    "mongoose": "^5.5.11",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
